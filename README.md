@@ -16,22 +16,22 @@ This project demonstrates end-to-end testing with CodeceptJS and Puppeteer using
 git clone https://github.com/prasanthvb/codeceptjs_puppeteer.git
 cd codeceptjs_puppeteer
 npm install
-
+```
 ✅ Run a Single Scenario
 To run a specific test file:
 
-bash
+```bash
 Copy
 Edit
 npx codeceptjs run --grep "Locators"
-
+```
 ✅ Run parallel execution
 
-bash
+```bash
 Copy
 Edit
 npx codeceptjs run-workers 2
-
+```
 🗂 Project Structure
 lua
 Copy
