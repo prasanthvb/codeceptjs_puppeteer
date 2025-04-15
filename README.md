@@ -21,21 +21,14 @@ npm install
 To run a specific test file:
 
 ```bash
-Copy
-Edit
 npx codeceptjs run --grep "Locators"
 ```
 ✅ Run parallel execution
 
 ```bash
-Copy
-Edit
 npx codeceptjs run-workers 2
 ```
 🗂 Project Structure
-lua
-Copy
-Edit
 codeceptjs_puppeteer/
 ├── codecept.conf.js
 ├── package.json
