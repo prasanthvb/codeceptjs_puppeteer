@@ -10,6 +10,12 @@ setCommonPlugins();
 exports.config = {
   tests: './*_test.js',
   output: './output',
+  //run in multiple browsers 
+  multiple:{
+    basic:{
+    browsers: ["chrome", "firefox"]
+    }
+  },
   helpers: {
     Puppeteer: {
       url: 'https:www.google.com',
