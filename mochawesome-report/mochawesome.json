@@ -1,0 +1,193 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-04-15T15:09:13.125Z",
+    "end": "2025-04-15T15:10:05.862Z",
+    "duration": 52737,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "102a76f5-ae4d-4998-b1ce-3b78d77481b4",
+      "title": "",
+      "fullFile": "C:\\PrasanthVB\\CodeceptJS\\codeceptjs_puppeteer\\First_test.js",
+      "file": "\\First_test.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "46aa3a7a-4c23-48b8-9588-a00c405ed33d",
+          "title": "Codecept Learning",
+          "fullFile": "C:\\PrasanthVB\\CodeceptJS\\codeceptjs_puppeteer\\First_test.js",
+          "file": "\\First_test.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook: codeceptjs.beforeSuite in \"Codecept Learning\"",
+              "fullTitle": "Codecept Learning \"before all\" hook: codeceptjs.beforeSuite in \"Codecept Learning\"",
+              "timedOut": false,
+              "duration": 2,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "suiteSetup(suite)",
+              "err": {},
+              "uuid": "9e05dd59-121d-45cd-a5ca-35180c666131",
+              "parentUUID": "46aa3a7a-4c23-48b8-9588-a00c405ed33d",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook: codeceptjs.before in \"Codecept Learning\"",
+              "fullTitle": "Codecept Learning \"before each\" hook: codeceptjs.before in \"Codecept Learning\"",
+              "timedOut": false,
+              "duration": 2098,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "setup(suite)",
+              "err": {},
+              "uuid": "be928df0-785b-4d6d-8551-955f99d82700",
+              "parentUUID": "46aa3a7a-4c23-48b8-9588-a00c405ed33d",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook: codeceptjs.afterSuite in \"Codecept Learning\"",
+              "fullTitle": "Codecept Learning \"after all\" hook: codeceptjs.afterSuite in \"Codecept Learning\"",
+              "timedOut": false,
+              "duration": 1,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "suiteTeardown(suite)",
+              "err": {},
+              "uuid": "bfa08661-d9c3-490d-8dde-89e78222014b",
+              "parentUUID": "46aa3a7a-4c23-48b8-9588-a00c405ed33d",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook: finalize codeceptjs in \"Codecept Learning\"",
+              "fullTitle": "Codecept Learning \"after each\" hook: finalize codeceptjs in \"Codecept Learning\"",
+              "timedOut": false,
+              "duration": 971,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "teardown(suite)",
+              "err": {},
+              "uuid": "ee107745-c20b-46b2-a967-11564dfe4eb9",
+              "parentUUID": "46aa3a7a-4c23-48b8-9588-a00c405ed33d",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "Launch URL",
+              "fullTitle": "Codecept Learning: Launch URL",
+              "timedOut": false,
+              "duration": 40531,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "I }) => {\n    I.amOnPage(\"/\");\n    I.wait(1);\n    I.amOnPage(\"/doodles\");\n    I.wait(1);\n    I.amOnPage(\"https://codecept.io/puppeteer/#mocking-network-requests\");\n    I.wait(1);\n    I.amOnPage(\"https://www.udemy.com/course/puppeteer/\");\n    I.wait(1);",
+              "err": {},
+              "uuid": "a4b0bb96-bd52-4221-bacf-60e1f003e857",
+              "parentUUID": "46aa3a7a-4c23-48b8-9588-a00c405ed33d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Locators",
+              "fullTitle": "Codecept Learning: Locators",
+              "timedOut": false,
+              "duration": 7099,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "I }) => {\n    I.amOnPage(\"https://opensource-demo.orangehrmlive.com/\");\n    I.see(\"Login\"); //Assertion\n    I.fillField(\"//*[@name='username']\", \"Admin\"); //Xpath\n    I.fillField(\"input[name='password']\", \"admin123\");// Css selector\n    I.click(\"button[type='submit']\")\n    I.saveScreenshot(\"loggedIn.jpg\")\n    I.see(\"Dashboard\"); //Assertion\n    I.dontSee(\"Login\");//Assertion",
+              "err": {},
+              "uuid": "e9c9efa9-c96e-4e98-98e9-10931e25d1be",
+              "parentUUID": "46aa3a7a-4c23-48b8-9588-a00c405ed33d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "a4b0bb96-bd52-4221-bacf-60e1f003e857",
+            "e9c9efa9-c96e-4e98-98e9-10931e25d1be"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 47630,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 0
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 0
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "11.1.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {},
+      "version": "6.2.0"
+    }
+  }
+}
