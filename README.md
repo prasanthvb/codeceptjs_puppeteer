@@ -30,12 +30,13 @@ npx codeceptjs run-workers 2
 ```
 🗂 Project Structure
 codeceptjs_puppeteer/
-├── codecept.conf.js
-├── package.json
-├── steps_file.js
-├── output/
-└── tests/
-    └── First_test.js
+
+    ├── codecept.conf.js
+    ├── package.json
+    ├── steps_file.js
+    ├── output/
+    └── tests/
+        └── First_test.js
 🖼 Output
 Test artifacts like screenshots, logs, and traces will appear in the output/ directory.
 
